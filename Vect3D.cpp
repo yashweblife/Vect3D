@@ -8,11 +8,11 @@ Vect3D::Vect3D(float _x, float _y, float _z)
     z = _z;
 }
 float Vect3D::getMag(){}
-void Vect3D::add() {}
-void Vect3D::sub() {}
-void Vect3D::mul() {}
-void Vect3D::scale() {}
+void Vect3D::add(Vect3D &v) {}
+void Vect3D::sub(Vect3D &v) {}
+void Vect3D::mul(Vect3D &v) {}
+void Vect3D::scale(float v) {}
 void Vect3D::normalize() {}
-void Vect3D::rotateX() {}
-void Vect3D::rotateY() {}
-void Vect3D::rotateZ() {}
+void Vect3D::rotateX(float angle) {}
+void Vect3D::rotateY(float angle) {}
+void Vect3D::rotateZ(float angle) {}
