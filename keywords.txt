@@ -1,0 +1,16 @@
+#######################################
+                KEYWORDS
+#######################################
+
+x       float   x coordinate
+y       float   y coordinate
+z       float   z coordinate
+getMag  float   get magnitude of vector
+add             add vector
+sub             subtract vector
+mul             multiply a vector linearly
+normalize       set magnitude to 1
+scale           scale a vector with a scalar
+rotateX         rotate along x axis
+rotateY         rotate along y axis
+rotateZ         rotate along z axis
