@@ -17,7 +17,7 @@ Vect3D::Vect3D(float _x, float _y, float _z)
 */
 float Vect3D::getMag()
 {
-    return (sqrt(x * x + y * y + z * z))
+    return (sqrt(x * x + y * y + z * z));
 }
 /**
  * Add a Vector to the current Vector
